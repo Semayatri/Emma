@@ -1,8 +1,4 @@
-# Emma
-#Mini Games from python
-
-@ramaalfiandi siapa tahu board-nya mau bisa diubah-ubah sesuai mode game-nya
-def DisplayBoard(mod):
+    def DisplayBoard(mod):
     #mode merupakan mode game, misal: 3 untuk 3x3, 10 untuk 10x10
     i = 0
     board =[x for x in range(1, (mod * mod)+1)]
@@ -28,6 +24,6 @@ def DisplayBoard(mod):
                     else:
                         print(' ', end='')                
         print()
-        
+       
 DisplayBoard(10)
  
